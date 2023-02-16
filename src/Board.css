@@ -1,0 +1,25 @@
+.board_container {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    gap: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    align-items: center
+}
+
+.board_grid {
+    background-image: url("./office.jpg");
+    display: grid;
+    grid-template-columns: repeat(20, var(--tile-size));
+    grid-template-rows: repeat(20, var(--tile-size));
+    width: 800px;
+    height: 640px;
+}
+
+.board_img {
+    height: 800px;
+    width: 800px;
+    object-fit: contain;
+}

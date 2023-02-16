@@ -1,0 +1,26 @@
+
+
+.list {
+    margin-top: 10px;
+    border: 1px solid;
+    border-bottom: 0px;
+    border-color: #202020;
+    width: 80%;
+    height: flex;
+}
+
+.list_elem {
+    width: 100%;
+    font-size: 20px;
+    border-bottom: 1px solid;
+    border-color: #202020;
+}
+
+.list_elem_selected {
+    width: 100%;
+    font-size: 20px;
+    border-bottom: 1px solid;
+    color: white;
+    border-color: #202020;
+    background-color: #ea4545
+}

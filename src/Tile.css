@@ -1,0 +1,33 @@
+.normal_tile {
+    width: var(--tile-size);
+    height: var(--tile-size);
+    border: 1px solid;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flageed_tile {
+    width: var(--tile-size);
+    height: var(--tile-size);
+    border: 1px solid;
+    border-color: white;
+    background-color: rgb(90, 234, 90);
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checked_tile {
+    width: var(--tile-size);
+    height: var(--tile-size);
+    border: 1px solid;
+    border-color: white;
+    background-color: rgb(228, 83, 83);
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

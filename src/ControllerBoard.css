@@ -1,0 +1,7 @@
+.controller {
+    height: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #202020;
+}
